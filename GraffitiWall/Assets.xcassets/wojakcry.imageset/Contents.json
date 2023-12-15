@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "internet-meme-rage-comic-pol-antifa-meme-a3a4f042f2f9699f332d393fcb537597.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
