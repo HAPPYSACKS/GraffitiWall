@@ -20,7 +20,14 @@ open GraffitiWall.xcodeproj
 ```
 
 ## Important
-The AR is unrefined and akward. It needs a bit of calibration, so you need to explore the surroundings a little bit and be in a well-lit area. 
+- The AR is unrefined and akward. It needs a bit of calibration, so you need to explore the surroundings a little bit and be in a well-lit area. 
 
-Debug mode is on by default. If you want to remove the green and blue lines comment out this line of code `self.debugOptions = [.showFeaturePoints, .showWorldOrigin, .showAnchorGeometry]`
-which can be found in `CustomARView.swift`.
+- Debug mode is on by default. If you want to remove the green and blue lines comment out this line of code `self.debugOptions = [.showFeaturePoints, .showWorldOrigin, .showAnchorGeometry]` which can be found in `CustomARView.swift`.
+
+## Adding Images
+- Have the folder navigator thingy out and have all the folders expanded.
+- Click on `Assets`
+- At the bottom of the image list, there should be a `+` icon. Click on this icon
+- Click import and import your desired image.
+- Then goto the `ImageSelectionViewModel.swift` file and add the image's name without the file extension. (ex. krabs.png -> krabs)
+- Make sure to use a png file because jpg files can't support transparency.
