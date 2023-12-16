@@ -17,3 +17,10 @@ To install GraffitiWall, clone the repository and open the project in Xcode:
 git clone https://github.com/your-username/GraffitiWall.git
 cd GraffitiWall
 open GraffitiWall.xcodeproj
+```
+
+## Important
+The AR is unrefined and akward. It needs a bit of calibration, so you need to explore the surroundings a little bit and be in a well-lit area. 
+
+Debug mode is on by default. If you want to remove the green and blue lines comment out this line of code `self.debugOptions = [.showFeaturePoints, .showWorldOrigin, .showAnchorGeometry]`
+which can be found in `CustomARView.swift`.
